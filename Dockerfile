@@ -6,6 +6,7 @@ RUN \
     apt-get update && \
     apt-get install -y \
         ssh \
+        sshpass \
         rsync && \
     apt-get clean && \
     rm -rf \
