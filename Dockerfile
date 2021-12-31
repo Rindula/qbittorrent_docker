@@ -5,6 +5,7 @@ LABEL maintainer="Rindula"
 RUN \
     apt-get update && \
     apt-get install -y \
+        ssh \
         rsync && \
     apt-get clean && \
     rm -rf \
